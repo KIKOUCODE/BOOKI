@@ -21,15 +21,6 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 1440px;
-}
-.main-container{
-    width: 100%;
-    box-sizing: border-box;
-}
-main{
-    max-width: 1440px;
-    width: 100%;
 }
 header {
   display: flex;
