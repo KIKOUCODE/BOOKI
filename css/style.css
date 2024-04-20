@@ -22,7 +22,9 @@ body {
 /****************************************partie header***************************************/
 
 header {
-    margin: 0px 55px 37px 55px;
+ 
+   width: 100%;
+   height: 79px;
    
 }
 
@@ -33,6 +35,7 @@ header {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    margin-left: 54px;
 }
 
 .logo_booki img {
@@ -104,6 +107,13 @@ nav li a:hover::before {
     font-weight: 400;
     font-size: 16px;
 }
+.search-form{
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    margin-left: 54px;
+    margin-bottom: 15px;
+}
 
 form {
     margin-bottom: 32px;
@@ -140,10 +150,6 @@ form {
     padding-left: 17px;
 }
 
-.search-input input::value {
-    align-self: center;
-    color: black;
-}
 
 .search-button {
    
@@ -549,6 +555,22 @@ footer h3 {
     header {
         margin: 0px 30px 37px 30px;
     }
+    nav{
+        margin-left: -14px;
+        margin-right: 15px;
+    }
+    .search-form{
+margin-left: 40px;
+    }
+    .search-title h1{
+        margin: 0;
+    }
+  .logo_booki{
+    margin-left: 20px;
+  }
+.info-container {
+    margin-left: -15px;
+}
 
     .search-input input {
         font-size: 16px;
@@ -620,10 +642,7 @@ footer h3 {
         margin-bottom: 0px;
     }
 
-    .offers__sponsored {
-        margin-top: 40px;
-        width: 100%;
-    }
+    
 
     .card-pop--container {
         display: flex;
@@ -631,7 +650,7 @@ footer h3 {
         height: 140px;
         width: 95%;
         margin: 0 auto;
-        /* Centrage horizontal des cartes à l'intérieur de leur parent */
+        
     }
 
 
@@ -680,6 +699,8 @@ footer h3 {
 
     .populaires h2 {
         margin-bottom: 35px;
+        margin-top: 15px;
+        margin-left: 12px;
     }
 
     .offers__spensored-title {
@@ -719,6 +740,7 @@ footer h3 {
     .logo_booki {
         margin-top: 21px;
         margin-bottom: 38px;
+        width: calc(100% - 299px); 
     }
 
     nav ul {
@@ -733,24 +755,35 @@ footer h3 {
     nav li a:hover::before {
         top: 100%;
     }
+    .search-title {
+
+    }
 
     /*search form */
 
     .search-form {
-        margin: 0px 20px;
+        margin: 0px;
+        width: 100%;
+        margin-left:10px;
+padding-right: 20px;
     }
-
+.search-button{
+border-radius: 15px;
+}
     .search-button i {
         display: block;
+     border: 1px;
+    
     }
 
 
     .search-button span {
         display: none;
     }
+    /* enlever rechercher dans le champs de recherche*/
 
     .search-input {
-        width: 100%;
+        width: calc(100% - 40px);
         margin-top: 30px;
     }
 
@@ -758,6 +791,8 @@ footer h3 {
         font-size: 16px;
         width: 100%;
     }
+
+   
 
     /*Filter bar*/
 
