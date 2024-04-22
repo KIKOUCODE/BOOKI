@@ -10,22 +10,22 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 
-    
+
 }
 
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF; 
+    --filter-bg-color: #DEEBFF;
 }
 
 /****************************************partie header***************************************/
 
 header {
- 
-   width: 100%;
-   height: 79px;
-   
+
+    width: 100%;
+    height: 79px;
+
 }
 
 /******************barre de navigation**************************/
@@ -52,7 +52,7 @@ nav ul {
 
 nav {
     display: flex;
-    
+
     justify-content: space-between;
     align-items: center;
     height: 100px;
@@ -98,7 +98,7 @@ nav li a:hover::before {
 
 .search-title h1 {
     /* margin: 53px 0 8px 0px; */
-    font-size:22px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -107,7 +107,8 @@ nav li a:hover::before {
     font-weight: 400;
     font-size: 16px;
 }
-.search-form{
+
+.search-form {
     width: calc(100% - 100px);
     display: flex;
     flex-direction: column;
@@ -141,7 +142,7 @@ form {
 }
 
 .search-input input {
-    
+
     font-size: 18px;
     font-weight: 700;
     border: none;
@@ -153,7 +154,7 @@ form {
 
 
 .search-button {
-   
+
     font-weight: 700;
     font-size: 18px;
     color: white;
@@ -182,7 +183,7 @@ form {
 }
 
 .filters h2 {
-    
+
     font-weight: 700;
     font-size: 18px;
 }
@@ -199,7 +200,7 @@ form {
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size:14px;
+    font-size: 14px;
     border: 2px solid #d9d9d9;
     border-radius: 20px;
     height: 35px;
@@ -313,14 +314,14 @@ form {
 
     font-weight: 700;
     font-size: 16px;
-    
+
 }
 
 .hotels p {
-   
+
     font-weight: 400;
     font-size: 14px;
-    
+
 }
 
 .hebergement-discription {
@@ -333,7 +334,7 @@ form {
 }
 
 .more-info {
-    
+
     font-weight: 700;
     font-size: 18px;
     margin-top: 40px;
@@ -444,7 +445,7 @@ form {
 }
 
 .card-content h3 {
- font-weight: 700 ;
+    font-weight: 700;
     margin-bottom: 7px;
     font-size: 16px;
 }
@@ -532,7 +533,7 @@ footer h3 {
     width: calc(33.333% - 20px);
     /* Ajustement pour les colonnes */
     margin-right: 20px;
-   padding: 30px 0 0 30px;
+    padding: 30px 0 0 30px;
 }
 
 .link-list a {
@@ -556,23 +557,28 @@ footer h3 {
     header {
         margin: 0px 30px 37px 30px;
     }
-    nav{
+
+    nav {
         margin-left: -14px;
         margin-right: 15px;
-        
+
     }
-    .search-form{
-margin-left: 40px;
+
+    .search-form {
+        margin-left: 40px;
     }
-    .search-title h1{
+
+    .search-title h1 {
         margin: 0;
     }
-  .logo_booki{
-    margin-left: 20px;
-  }
-.info-container {
-    margin-left: -15px;
-}
+
+    .logo_booki {
+        margin-left: 20px;
+    }
+
+    .info-container {
+        margin-left: -15px;
+    }
 
     .search-input input {
         font-size: 16px;
@@ -644,7 +650,7 @@ margin-left: 40px;
         margin-bottom: 0px;
     }
 
-    
+
 
     .card-pop--container {
         display: flex;
@@ -652,7 +658,7 @@ margin-left: 40px;
         height: 140px;
         width: 95%;
         margin: 0 auto;
-        
+
     }
 
 
@@ -705,7 +711,7 @@ margin-left: 40px;
         margin-left: 12px;
     }
 
-    .offers__spensored-title {
+    .populaires title {
         margin-left: 30px;
         margin-top: 20px;
     }
@@ -736,13 +742,13 @@ margin-left: 40px;
 
     nav {
         flex-direction: column;
-        border-bottom: 2px solid #DEEBFF;
+        border-bottom: 1px solid #F2F2F2;
     }
 
     .logo_booki {
         margin-top: 21px;
         margin-bottom: 38px;
-        width: calc(100% - 299px); 
+        width: calc(100% - 299px);
     }
 
     nav ul {
@@ -757,40 +763,47 @@ margin-left: 40px;
     nav li a:hover::before {
         top: 100%;
     }
+
     .search-title {
-width:calc(100% - 46.8px);
-margin-top: 40px;
+        width: calc(100% - 46.8px);
+        margin-top: 40px;
     }
-.search-title h1{
-    height: 52px;
-    margin-bottom: 10px;
-}
-.search-title p {
-    margin-bottom: 0;
-}
+
+    .search-title h1 {
+        height: 52px;
+        margin-bottom: 10px;
+    }
+
+    .search-title p {
+        margin-bottom: 0;
+    }
 
     .search-form {
         margin: 0px;
         width: 100%;
-        margin-left:10px;
+        margin-left: 10px;
         padding-right: 20px;
     }
+
     .search-input {
         margin-top: 0;
     }
-.search-button{
-border-radius: 15px;
-}
+
+    .search-button {
+        border-radius: 15px;
+    }
+
     .search-button i {
         display: block;
-     border: 1px;
-    
+        border: 1px;
+
     }
 
 
     .search-button span {
         display: none;
     }
+
     /* enlever rechercher dans le champs de recherche*/
 
     .search-input {
@@ -803,7 +816,7 @@ border-radius: 15px;
         width: 100%;
     }
 
-   
+
 
     /*Filter bar*/
 
@@ -846,6 +859,14 @@ border-radius: 15px;
         /* margin-right: -50px; */
         border-radius: 0px;
         margin-top: 40px;
+        padding: 0 20px;
+    }
+
+    .populaire-cards {
+        /* width: calc(100% - 30px); */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .hebergements-marseille {
@@ -869,8 +890,9 @@ border-radius: 15px;
         border-radius: 20px;
         color: #ffffff;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-        margin-left: -20px;
-        margin-right: -17px;
+        /* margin-left: -20px; */
+        /* margin-right: -17px; */
+        width: 100%;
     }
 
     .hotels img {
@@ -910,7 +932,7 @@ border-radius: 15px;
     }
 
     .infos-footer:nth-child(-n + 3) {
-        width: 100%;        
+        width: 100%;
     }
 
     /* Footer */
@@ -925,7 +947,7 @@ border-radius: 15px;
     }
 
     footer h3 {
-        
+
         margin-bottom: 20px;
         font-weight: 700;
         font-size: 18px;
