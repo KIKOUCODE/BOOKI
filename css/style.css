@@ -80,7 +80,7 @@ nav li a:hover::before {
   /* contenu vide du pseudo élément*/
   width: 0%;
   height: 2px;
-  /*heuteur de la ligne de 2px*/
+  /*hauteur de la ligne de 2px*/
   position: absolute;
   /*position par rapport à l'élément parent*/
   top: 0;
@@ -96,7 +96,7 @@ nav li a:hover::before {
 /************************************** search form  *******************************************/
 
 .search-title h1 {
-  /* margin: 53px 0 8px 0px; */
+  
   font-size: 22px;
   font-weight: 700;
 }
@@ -284,9 +284,7 @@ form {
   width: 100%;
   /* Largeur de l'image à 100% */
   border-radius: 20px 20px 0px 0px;
-  /* Coins arrondis spécifiques */
   height: 124px;
-  /* Hauteur spécifique */
   object-fit: cover;
   /* Ajustement de l'objet pour couvrir */
 }
@@ -631,7 +629,6 @@ footer h3 {
     height: 140px;
     width: 95%;
     margin: 0 auto;
-    
   }
 
   .card-pop img {
@@ -802,7 +799,7 @@ footer h3 {
 
   .filter-names {
     flex-wrap: wrap;
-    
+
     column-gap: 9.4px;
     padding: 0;
   }
@@ -870,15 +867,13 @@ footer h3 {
     border-radius: 20px;
     color: #ffffff;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    /* margin-left: -20px; */
-    /* margin-right: -17px; */
     width: 90%;
     margin-left: 18px;
   }
 
   .populaires-title {
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     margin-right: 10px;
     margin-top: 30px;
   }
