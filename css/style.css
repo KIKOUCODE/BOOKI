@@ -835,7 +835,7 @@ footer h3 {
   }
 
   .populaire-cards {
-    /* width: calc(100% - 30px); */
+    
     width: 100%;
     display: flex;
     flex-wrap: wrap;
