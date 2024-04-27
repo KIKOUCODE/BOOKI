@@ -301,6 +301,7 @@ form {
 
 .hebergement-discription {
   padding: 4px 0 6px 11px;
+  background-color: #ffffff;
 }
 
 .hebergement-discription > h3, /*tous les enfants de h3*/
